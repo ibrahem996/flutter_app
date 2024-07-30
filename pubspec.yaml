@@ -1,0 +1,29 @@
+name: onlydigital
+description: "A Flutter project similar to onlydigital."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  shared_preferences: ^2.0.13
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.0.17
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.7.0
+  cloud_firestore: ^4.7.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
